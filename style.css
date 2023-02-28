@@ -18,7 +18,7 @@ top: 7px;
 display: inline-block;
 font-size: 45px;
 position: relative;
-top: -5px;
+bottom: 6px;
 
 }
 
@@ -29,5 +29,95 @@ margin-bottom: 40px;
 }
 .title-logo{
 margin-left: 50px;
+}
+
+.container{
+background-color: white;
+width: 75%;
+margin: auto;
+padding-left: 50px;
+height: 80vh;
+}
+.button-task{
+padding: 5px 10px 5px 10px;
+border-radius: 10px;
+margin: 15px 2px 10px;
+}
+.add-task{
+color: white;
+background-color: cornflowerblue;
+border: 2px solid dodgerblue;
+}
+
+.add-section{
+border: 2px solid rgb(167, 167, 167);
+color: rgb(167, 167, 167);
+}
+
+nav{
+border-bottom: 1px solid lightgray;
+}
+/*tags*/
+
+.btn-tag{
+padding: 5px 10px 5px 10px;
+border-radius: 15px;
+font-size: 0.7em;
+color: white;
+border: 1px solid lightgray;
+}
+.sales{
+background-color: chartreuse;
+}
+.webs{
+background-color: deeppink;
+}
+.edit{
+background-color: cornflowerblue;
+}
+.goals{
+background-color: mediumpurple;
+}
+.recr{
+background-color: mediumseagreen;
+}
+.mobile{
+background-color: darkorange;
+}
+/*end tags*/
+.done{
+border: 1px solid green;
+border-radius: 50%;
+color: green;
+font-size: 0.7em;
+padding: 3px;
+}
+.done::before{
+content: "V";
+}
+.undone::before{
+content: "X";
+}
+.undone{
+border: 1px solid red;
+border-radius: 50%;
+color: red;
+font-size: 0.7em;
+padding: 3px;
+}
+.task-desc{
+margin-top: 5px;
+margin-bottom: 5px;
+}
+h3::before{
+content: "\2B9F";
+}
+h3{
+margin-top: 20px;
+}
+li{
+list-style-type: none;
+margin-top: 10px;
+margin-bottom: 10px;
 }
     
