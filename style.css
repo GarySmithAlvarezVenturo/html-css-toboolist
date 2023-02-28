@@ -1,17 +1,33 @@
 *{
+box-sizing: border-box;
 margin: 0;
 padding: 0;
-box-sizing: border-box;
-}
-
-.banner{
-font-size: 50px;
-font-weight: 600;
 font-family: Arial, Helvetica, sans-serif;
 }
 
-.container{
-background-color: rgba(241, 241, 241, 0.637);
-background-size: cover;
-height: 100vh;
+body{
+background-color: gainsboro;
 }
+
+.logo{
+position: relative;
+top: 7px;
+}
+
+.title{
+display: inline-block;
+font-size: 45px;
+position: relative;
+top: -5px;
+
+}
+
+header{
+height: 70px;
+background-color: white;
+margin-bottom: 40px;
+}
+.title-logo{
+margin-left: 50px;
+}
+    
