@@ -38,6 +38,7 @@ margin: auto;
 padding-left: 50px;
 height: 80vh;
 }
+
 .button-task{
 padding: 5px 10px 5px 10px;
 border-radius: 10px;
@@ -93,10 +94,10 @@ font-size: 0.7em;
 padding: 3px;
 }
 .done::before{
-content: "V";
+content: "✔";
 }
 .undone::before{
-content: "X";
+content: "✘";
 }
 .undone{
 border: 1px solid red;
