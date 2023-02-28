@@ -1,0 +1,17 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.banner{
+font-size: 50px;
+font-weight: 600;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+background-color: rgba(241, 241, 241, 0.637);
+background-size: cover;
+height: 100vh;
+}
